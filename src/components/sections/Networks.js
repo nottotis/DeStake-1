@@ -56,8 +56,8 @@ class Networks extends React.Component {
           <div
             className={innerClasses}
           >
-            <SectionHeader data={sectionHeader} className="center-content" />
-            <ul className="list-reset">
+            <SectionHeader data={sectionHeader} className="center-content rm" />
+            <ul className="list-reset rm">
               <li>
                 <Image
                   src={require('./../../assets/images/cosmos-white.png')}
@@ -80,7 +80,7 @@ class Networks extends React.Component {
                   height={24} />
               </li>
 
-            
+
             </ul>
           </div>
         </div>

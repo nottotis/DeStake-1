@@ -39,8 +39,8 @@ class Home extends React.Component {
 
     return (
       <React.Fragment>
-        <HeroFull className="illustration-section-01" />
-        <Networks topDivider bottomDivider />
+        <HeroFull className="illustration-section-01 mt-header" />
+        <Networks className="mt-header" topDivider bottomDivider />
         <How />
         <Gov topDivider bottomDivider/>
         <Economics />
