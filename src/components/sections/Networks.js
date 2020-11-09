@@ -60,39 +60,27 @@ class Networks extends React.Component {
             <ul className="list-reset">
               <li>
                 <Image
-                  src={require('./../../assets/images/clients-00.svg')}
+                  src={require('./../../assets/images/cosmos-white.png')}
                   alt="Client 01"
                   width={124}
                   height={24} />
               </li>
               <li>
                 <Image
-                  src={require('./../../assets/images/clients-00.svg')}
+                  src={require('./../../assets/images/polkadot-white.png')}
                   alt="Client 02"
                   width={124}
                   height={24} />
               </li>
               <li>
                 <Image
-                  src={require('./../../assets/images/clients-00.svg')}
+                  src={require('./../../assets/images/eth-grey.png')}
                   alt="Client 03"
                   width={124}
                   height={24} />
               </li>
-              <li>
-                <Image
-                  src={require('./../../assets/images/clients-00.svg')}
-                  alt="Client 04"
-                  width={124}
-                  height={24} />
-              </li>
-              <li>
-                <Image
-                  src={require('./../../assets/images/clients-00.svg')}
-                  alt="Client 05"
-                  width={124}
-                  height={24} />
-              </li>
+
+            
             </ul>
           </div>
         </div>
