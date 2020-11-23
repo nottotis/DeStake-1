@@ -87,7 +87,8 @@ class Economics extends React.Component {
                 <li>Cosmos : 10% (1,000 DGOV/Day)</li>
                 <li>Polkadot : 10% (1,000 DGOV/Day)</li>
                 <li>Ethereum 2.0 : 10% (1,000 DGOV/Day)</li>
-                <li>Uniswap ETH/DGOV Liquidity : 20% (2,000 DGOV/Day)</li>
+                <li>Uniswap ETH/DGOV Liquidity : 10% (1,000 DGOV/Day)</li>
+                <li>Uniswap ETH/sETH2 Liquidity : 10% (1,000 DGOV/Day)</li>
                 <li>The remaining 50% is set aside in the community fund for future networks</li>
                 </ul>
 
@@ -137,10 +138,11 @@ class Economics extends React.Component {
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Fair Distribution
+                  What is the Value of DGOV?
+
                   </h3>
                   <p className="m-0">
-                  While TokenWeb is the creator of DeStake, the goal is to decentralise it as much as possible through the governance token. Additionally, there is absolutely no extra incentive for delegating tokens to the TokenWeb Validator. We believe that delegations should be evenly distributed among all validators to promote decentralisation so it is bad for the networks we support to incentivise a specific validator.
+                DGOV is designed as a valueless governance token. If it does miraculously have any value then it will act as a form of rebate for those who delegate their tokens. For example. If a user pays a validator fee of 10% and is receiving an APY of 12% from DGOV tokens, then their effective validator fee is -2%. Pretty cool, eh?
                   </p>
                 </div>
                 <div className={

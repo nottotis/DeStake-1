@@ -43,8 +43,8 @@ class Home extends React.Component {
         <Networks className="mt-header" topDivider bottomDivider />
         <How />
         <Gov topDivider bottomDivider/>
-        <Economics />
-        <Value bottomDivider  />
+        <Economics bottomDivider />
+
         <Tech bottomDivider />
         <Roadmap />
 
@@ -52,11 +52,13 @@ class Home extends React.Component {
           <div className="container">
             <SectionHeader data={genericSection01Header} className="center-content" />
             <ButtonGroup>
-              <Button color="primary" wideMobile>Twitter</Button>
-              <Button color="secondary" wideMobile>Telegram</Button>
+              <a href="https://twitter.com/destakehq" target="_blank"><Button color="primary" wideMobile>Twitter</Button></a>
+              <a href="https://t.me/DeStakeHQ" target="_blank"><Button color="secondary" wideMobile>Telegram</Button></a>
             </ButtonGroup>
           </div>
         </Social >
+
+
 
 
 

@@ -78,7 +78,7 @@ class How extends React.Component {
                     How it Works
                   </h3>
                   <p className="m-0">
-                  By using DeStake to stake tokens on any of the supported networks, you receive DGov, an erc-20 governance token for the DeStake platform.
+                  By using DeStake to stake tokens on any of the supported networks, you receive DGOV, an erc-20 governance token for the DeStake platform.
 
                   </p>
                 </div>
@@ -96,6 +96,32 @@ class How extends React.Component {
                     height={396} />
                 </div>
               </div>
+
+              <div className="split-item">
+                <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                  <h3 className="mt-0 mb-12">
+                    ETH2 Liquidity Solved.
+                  </h3>
+                  <p className="m-0">
+                When you stake ETH with DeStake, you receive Synthetic ETH2 (sETH2) which can be swapped back to ETH via UniSwap at any time.
+
+                  </p>
+                </div>
+                <div className={
+                  classNames(
+                    'split-item-image center-content-mobile reveal-from-bottom',
+                    imageFill && 'split-item-image-fill'
+                  )}
+                  data-reveal-container=".split-item">
+                  <Image
+                    className="has-shadow"
+                    src={require('./../../assets/images/features-split-image-03.png')}
+                    alt="Features split 03"
+                    width={528}
+                    height={396} />
+                </div>
+              </div>
+
 
             </div>
           </div>

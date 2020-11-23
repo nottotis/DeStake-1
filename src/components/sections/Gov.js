@@ -98,10 +98,10 @@ class Gov extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Voting on Fees
+                      Managing Fees & Rewards
                     </h4>
                     <p className="m-0 text-sm">
-                      Initially 1% of all DGOV withdrawals are allocated to the community fund. This can be changed dynamically on-chain.
+                      All platform fees and project rewards can be managed and updated dynamically on-chain.
                     </p>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ class Gov extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Managing Community Fund
+                      Community Fund
                     </h4>
                     <p className="m-0 text-sm">
                      Any allocation to pay for the maintenance or growth of DeStake must be approved by stakeholders.

@@ -54,7 +54,7 @@ class HeroFull extends React.Component {
               </h1>
               <div className="container-xs">
                 <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                The first decentralised and community governed staking platform.
+                The first incentivised staking platform.
 
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">

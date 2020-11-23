@@ -57,19 +57,22 @@ class Roadmap extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
-              <TimelineItem title="Phase 0 - Centralised DeStake">
-              A centrally hosted DeStake will be released to vigorously test in a production environment.
+              <TimelineItem title="Phase 0 - DeStake Launch">
+              DeStake will be released supporting Cosmos, Polkadot, and Ethereum2.0 staking.
               </TimelineItem>
-              <TimelineItem title="Phase 1 - DGOV Launched">
+              <TimelineItem title="Phase 1 - Staking Rewards Begin">
                 Governance token distribution begins for staking supported assets.
               </TimelineItem>
-              <TimelineItem title="Phase 2 - Decentralised DeStake">
-                Migrated to run serverless using chainlink oracles and IPFS.
+              <TimelineItem title="Phase 2 - Liquidity Pools Open">
+                Providing liqudity for ETH-sETH2 and ETH-DGOV UniSwap pools opens and rewards begin.
               </TimelineItem>
-              <TimelineItem title="Phase 3 - DGOV Management">
-                Ability to use DGOV to vote on networks, fee structures, and manage the community fund.
+              <TimelineItem title="Phase 3 - Community Governance">
+                Ability to use DGOV to vote on networks, rewards, fee structures, and manage the community fund.
               </TimelineItem>
-      
+              <TimelineItem title="Phase 4 - Network Expansion">
+                This is an ongoing phase of community driven decisions to add new networks and reward incentives.
+              </TimelineItem>
+
             </Timeline>
           </div>
         </div>
