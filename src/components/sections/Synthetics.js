@@ -4,6 +4,8 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+import HowItWorks from './HowItWorks';
+
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -12,7 +14,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults
 }
 
-class Economics extends React.Component {
+class How extends React.Component {
 
   render() {
 
@@ -54,10 +56,9 @@ class Economics extends React.Component {
     );
 
     const sectionHeader = {
-      title: '',
-      paragraph: ''
+      title: 'Built for your workflow',
+      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
     };
-
 
     return (
       <section
@@ -70,31 +71,24 @@ class Economics extends React.Component {
             <div className={splitClasses}>
 
 
-                <SectionHeader data={sectionHeader} className="center-content" />
 
 
+
+
+
+
+
+            
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                  Token Economics
+                    Synthetic Assets
                   </h3>
+                  <p className="m-0">
+            Synthetic Assets unlock 100% of the value currently locked in staking networks thus solving the liquidity crisis, where billions of dollars in staked assets are inefficiently allocated.
 
-                  <p>Max Supply: 1,000,000,000 (1 Billion)</p>
-
-                <ul>
-
-                <li>10% to Developers and Investors</li>
-                <li>90% to Liquidity Rewards</li>
-
-
-                </ul>
-
-                <p>10% of all newly minted DGOV goes directly to the community fund to be used for maintaining the platform as determined by DGOV holders.</p>
-
-
+                  </p>
                 </div>
-
-
                 <div className={
                   classNames(
                     'split-item-image center-content-mobile reveal-from-bottom',
@@ -103,15 +97,12 @@ class Economics extends React.Component {
                   data-reveal-container=".split-item">
                   <Image
                     className="has-shadow"
-                    src={require('./../../assets/images/Pie.jpg')}
+                    src={require('./../../assets/images/ETH.jpg')}
                     alt="Features split 03"
                     width={528}
                     height={396} />
                 </div>
               </div>
-
-            
-
 
 
             </div>
@@ -122,7 +113,7 @@ class Economics extends React.Component {
   }
 }
 
-Economics.propTypes = propTypes;
-Economics.defaultProps = defaultProps;
+How.propTypes = propTypes;
+How.defaultProps = defaultProps;
 
-export default Economics;
+export default How;

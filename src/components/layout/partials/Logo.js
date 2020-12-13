@@ -21,8 +21,8 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/logo.svg')}
-            alt="Cube"
+            src={require('./../../../assets/images/DeStakeLogo.png')}
+            alt="DeStake"
             width={32}
             height={32} />
         </Link>

@@ -4,6 +4,8 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+import HowItWorks from './HowItWorks';
+
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -75,13 +77,16 @@ class How extends React.Component {
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    How it Works
+
                   </h3>
                   <p className="m-0">
-                  By using DeStake to stake tokens on any of the supported networks, you receive DGOV, an erc-20 governance token for the DeStake platform.
+                Destake provides liquid, incentivised staking through the use of synthetic assets and a native governance token.
 
                   </p>
                 </div>
+
+
+
                 <div className={
                   classNames(
                     'split-item-image center-content-mobile reveal-from-bottom',
@@ -90,37 +95,14 @@ class How extends React.Component {
                   data-reveal-container=".split-item">
                   <Image
                     className="has-shadow"
-                    src={require('./../../assets/images/features-split-image-03.png')}
+                    src={require('./../../assets/images/PersonCrown.jpg')}
                     alt="Features split 03"
                     width={528}
                     height={396} />
                 </div>
               </div>
 
-              <div className="split-item">
-                <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                  <h3 className="mt-0 mb-12">
-                    ETH2 Liquidity Solved.
-                  </h3>
-                  <p className="m-0">
-                When you stake ETH with DeStake, you receive Synthetic ETH2 (sETH2) which can be swapped back to ETH via UniSwap at any time.
-
-                  </p>
-                </div>
-                <div className={
-                  classNames(
-                    'split-item-image center-content-mobile reveal-from-bottom',
-                    imageFill && 'split-item-image-fill'
-                  )}
-                  data-reveal-container=".split-item">
-                  <Image
-                    className="has-shadow"
-                    src={require('./../../assets/images/features-split-image-03.png')}
-                    alt="Features split 03"
-                    width={528}
-                    height={396} />
-                </div>
-              </div>
+            
 
 
             </div>

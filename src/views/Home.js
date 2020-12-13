@@ -5,12 +5,17 @@ import SectionHeader from '../components/sections/partials/SectionHeader';
 import HeroFull from '../components/sections/HeroFull';
 import Networks from '../components/sections/Networks';
 import How from '../components/sections/How';
+import Earn from '../components/sections/Earn';
 import Economics from '../components/sections/Economics';
 import Gov from '../components/sections/Gov';
+import SyntheticUses from '../components/sections/SyntheticUses';
+import Synthetics from '../components/sections/Synthetics';
 import Value from '../components/sections/Value';
 import Tech from '../components/sections/Tech';
 import Roadmap from '../components/sections/Roadmap';
 import Social from '../components/sections/Social';
+import HowItWorks from '../components/sections/HowItWorks';
+
 
 // import some required elements
 import Button from '../components/elements/Button';
@@ -40,13 +45,19 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <HeroFull className="illustration-section-01 mt-header" />
-        <Networks className="mt-header" topDivider bottomDivider />
+
         <How />
+        <HowItWorks />
+        <Synthetics />
+
+        <SyntheticUses />
+        <Earn />
         <Gov topDivider bottomDivider/>
         <Economics bottomDivider />
 
         <Tech bottomDivider />
         <Roadmap />
+    
 
         <Social topDivider bottomDivider className="center-content">
           <div className="container">

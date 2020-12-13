@@ -54,12 +54,12 @@ class HeroFull extends React.Component {
               </h1>
               <div className="container-xs">
                 <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                The first incentivised staking platform.
+                Liquid, Incentivised Staking.
 
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <Button tag="a" color="primary" wideMobile href="https://app.destake.io">
-                    Go to App
+                    Get Started
                   </Button>
                 </div>
               </div>

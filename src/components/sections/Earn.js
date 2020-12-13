@@ -54,7 +54,7 @@ class Economics extends React.Component {
     );
 
     const sectionHeader = {
-      title: '',
+      title: 'Provide Liquidity, Earn DGOV',
       paragraph: ''
     };
 
@@ -75,21 +75,13 @@ class Economics extends React.Component {
 
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                  <h3 className="mt-0 mb-12">
-                  Token Economics
-                  </h3>
 
-                  <p>Max Supply: 1,000,000,000 (1 Billion)</p>
+                  <p className="m-0">
+                DGOV, the native governance token, is used as a built-in incentive system designed to drive user participation across staking networks and provide liquidity for the synthetic trading pairs. Simply deposit your synthetic assets as liquidity in the associated uniswap pool and begin receiving DGOV tokens automatically.
 
-                <ul>
+                </p>
+                <br />
 
-                <li>10% to Developers and Investors</li>
-                <li>90% to Liquidity Rewards</li>
-
-
-                </ul>
-
-                <p>10% of all newly minted DGOV goes directly to the community fund to be used for maintaining the platform as determined by DGOV holders.</p>
 
 
                 </div>
@@ -103,14 +95,14 @@ class Economics extends React.Component {
                   data-reveal-container=".split-item">
                   <Image
                     className="has-shadow"
-                    src={require('./../../assets/images/Pie.jpg')}
+                    src={require('./../../assets/images/DGOV.jpg')}
                     alt="Features split 03"
                     width={528}
                     height={396} />
                 </div>
               </div>
 
-            
+
 
 
 
