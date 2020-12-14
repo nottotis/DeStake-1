@@ -78,14 +78,14 @@ class How extends React.Component {
 
 
 
-            
+
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
                     Synthetic Assets
                   </h3>
                   <p className="m-0">
-            Synthetic Assets unlock 100% of the value currently locked in staking networks thus solving the liquidity crisis, where billions of dollars in staked assets are inefficiently allocated.
+            Synthetic Assets unlock 100% of the value currently locked in staking networks thus solving the liquidity crisis, where billions of dollars in staked assets are inefficiently allocated. They also enable DeStake to compete with centralised exchange staking.
 
                   </p>
                 </div>
