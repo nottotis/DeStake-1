@@ -22,16 +22,16 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="">Github</Link>
+          <Link to="">Terms & Conditions</Link>
         </li>
         <li>
-          <Link to={whitepaper}>Whitepaper</Link>
+          <a href={whitepaper} target="_blank">Whitepaper</a>
         </li>
         <li>
-          <Link to="">Github</Link>
+          <a href="https://github.com/Tokenweb" target="_blank">Github</a>
         </li>
         <li>
-          <Link to="">Chat</Link>
+          <a href="https://t.me/DeStakeHQ" target="_blank">Chat</a>
         </li>
       </ul>
     </nav>
