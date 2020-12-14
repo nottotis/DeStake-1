@@ -58,16 +58,16 @@ class Roadmap extends React.Component {
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
               <TimelineItem title="Phase 0 - DeStake Launch">
-              DeStake will be released supporting Ethereum-based projects.
+              DeStake will be released supporting Launch Partner Projects.
               </TimelineItem>
-              <TimelineItem title="Phase 1 - Staking Rewards Begin">
-                Staking Rewards will begin for launch partners.
+              <TimelineItem title="Phase 1 - Governance Token Incentives Begin">
+                Earn Governance Tokens by providing liquidity on select UniSwap Synthetic Pools.
               </TimelineItem>
-              <TimelineItem title="Phase 2 - Community Governance">
-                Ability to use DGOV to vote on networks, rewards, fee structures, and manage the community fund.
+              <TimelineItem title="Phase 2 - Lending Platform Released">
+                Lend synthetics and receive interest or use them as collateral to borrow against.
               </TimelineItem>
-              <TimelineItem title="Phase 3 - Liquidity Pools Open">
-                Providing liqudity for other community-selected uniswap pools opens and rewards begin.
+              <TimelineItem title="Phase 3 - Community Governance Activated">
+              Ability to use Governance Tokens to vote on networks, rewards, fee structures, and manage the community fund.
               </TimelineItem>
 
               <TimelineItem title="Phase 4 - Network Expansion">
