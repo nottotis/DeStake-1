@@ -57,22 +57,20 @@ class Roadmap extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
-              <TimelineItem title="Phase 0 - DeStake Launch">
-              DeStake will be released supporting Launch Partner Projects.
+              <TimelineItem title="Phase 0 - DeStake Wallet Launch">
+              The DeStake Universal Staking Wallet will be released for GRT Staking.
               </TimelineItem>
-              <TimelineItem title="Phase 1 - Governance Token Incentives Begin">
-                Earn Governance Tokens by providing liquidity on select UniSwap Synthetic Pools.
+              <TimelineItem title="Phase 1 - DeStake Dapp Launch">
+                Liquid Staking launches for The Graph Indexer Delegations.
               </TimelineItem>
-              <TimelineItem title="Phase 2 - Lending Platform Released">
-                Lend synthetics and receive interest or use them as collateral to borrow against.
+              <TimelineItem title="Phase 2 - Liquid Staking DAO">
+                The DeStake DAO goes live and Governance Token incentives begin.
               </TimelineItem>
-              <TimelineItem title="Phase 3 - Community Governance Activated">
-              Ability to use Governance Tokens to vote on networks, rewards, fee structures, and manage the community fund.
-              </TimelineItem>
-
-              <TimelineItem title="Phase 4 - Network Expansion">
+              <TimelineItem title="Phase 3 - Network Expansion">
                 This is an ongoing phase of community driven decisions to add new networks and reward incentives.
               </TimelineItem>
+
+
 
             </Timeline>
           </div>

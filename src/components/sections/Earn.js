@@ -77,7 +77,7 @@ class Economics extends React.Component {
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
 
                   <p className="m-0">
-                DGOV, the native governance token, is used as a built-in incentive system designed to drive user participation across staking networks and provide liquidity for the synthetic trading pairs. Simply deposit your synthetic assets as liquidity in the associated uniswap pool and begin receiving DGOV tokens automatically.
+               DeStake is a Liquid Staking DAO powered by DGOV, the native governance token, which acts as a built-in incentive system designed to drive user participation across staking networks and provide liquidity for the synthetic trading pairs. Simply deposit your synthetic assets as liquidity in the associated uniswap pool and begin receiving DGOV tokens automatically.
 
                 </p>
                 <br />

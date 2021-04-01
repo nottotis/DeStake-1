@@ -76,10 +76,10 @@ class Gov extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Lend
+                      Stay Liquid
                     </h4>
                     <p className="m-0 text-sm">
-                    Use DeStake's decentralised, peer to peer lending platform to earn an annual return by loaning synthetic assets.
+                    Use synthetics in your favourite DeFi applications and never worry about unbonding periods again.
                     </p>
                   </div>
                 </div>

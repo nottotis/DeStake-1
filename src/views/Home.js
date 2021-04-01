@@ -6,7 +6,6 @@ import HeroFull from '../components/sections/HeroFull';
 import Networks from '../components/sections/Networks';
 import How from '../components/sections/How';
 import Earn from '../components/sections/Earn';
-import Economics from '../components/sections/Economics';
 import Gov from '../components/sections/Gov';
 import SyntheticUses from '../components/sections/SyntheticUses';
 import Synthetics from '../components/sections/Synthetics';
@@ -53,11 +52,11 @@ class Home extends React.Component {
         <SyntheticUses />
         <Earn />
         <Gov topDivider bottomDivider/>
-        <Economics bottomDivider />
+      
 
         <Tech bottomDivider />
         <Roadmap />
-    
+
 
         <Social topDivider bottomDivider className="center-content">
           <div className="container">
