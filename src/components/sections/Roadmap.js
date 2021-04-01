@@ -67,7 +67,7 @@ class Roadmap extends React.Component {
                 The DeStake DAO goes live and Governance Token incentives begin.
               </TimelineItem>
               <TimelineItem title="Phase 3 - Network Expansion">
-                This is an ongoing phase of community driven decisions to add new networks and reward incentives.
+                DeStake will integrate with Cosmos and continue expanding to additional networks.
               </TimelineItem>
 
 

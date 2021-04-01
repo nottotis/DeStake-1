@@ -52,7 +52,7 @@ class Home extends React.Component {
         <SyntheticUses />
         <Earn />
         <Gov topDivider bottomDivider/>
-      
+
 
         <Tech bottomDivider />
         <Roadmap />
@@ -62,7 +62,9 @@ class Home extends React.Component {
           <div className="container">
             <SectionHeader data={genericSection01Header} className="center-content" />
             <ButtonGroup>
-              <a href="https://twitter.com/destakehq" target="_blank"><Button color="primary" wideMobile>Twitter</Button></a>
+            <Button tag="a" color="primary" wideMobile href="https://app.destake.io">
+              Get Started
+            </Button>
               <a href="https://t.me/DeStakeHQ" target="_blank"><Button color="secondary" wideMobile>Telegram</Button></a>
             </ButtonGroup>
           </div>
