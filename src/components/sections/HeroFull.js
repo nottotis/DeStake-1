@@ -58,9 +58,9 @@ class HeroFull extends React.Component {
 
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <Button tag="a" color="primary" wideMobile href="https://app.destake.io">
+        {/*          <Button tag="a" color="primary" wideMobile href="https://app.destake.io">
                     Get Started
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>

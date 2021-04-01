@@ -64,7 +64,7 @@ class Roadmap extends React.Component {
                 Liquid Staking launches for The Graph Indexer Delegations.
               </TimelineItem>
               <TimelineItem title="Phase 2 - Liquid Staking DAO">
-                The DeStake DAO goes live and Governance Token incentives begin.
+                The DeStake DAO goes live and STAKE incentives begin.
               </TimelineItem>
               <TimelineItem title="Phase 3 - Network Expansion">
                 DeStake will integrate with Cosmos and continue expanding to additional networks.

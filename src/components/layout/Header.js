@@ -126,9 +126,9 @@ class Header extends React.Component {
                       <ul
                         className="list-reset header-nav-right"
                       >
-                        <li>
+                    {/*     <li>
                           <a href="https://app.destake.io" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Go to App</a>
-                        </li>
+                        </li> */}
                       </ul>}
                   </div>
                 </nav>

@@ -49,7 +49,7 @@ class Gov extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'What is DGOV used for?',
+      title: 'What is STAKE used for?',
       paragraph: ''
     };
 
