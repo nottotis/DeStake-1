@@ -65,7 +65,9 @@ class Home extends React.Component {
             <Button tag="a" color="primary" wideMobile href="https://twitter.com/DeStakeHQ">
               Twitter
             </Button>
-              <a href="https://t.me/DeStakeHQ" target="_blank"><Button color="secondary" wideMobile>Telegram</Button></a>
+            <Button tag="a" color="secondary" wideMobile href="https://t.me/DeStakeHQ">
+              Telegram
+            </Button>
             </ButtonGroup>
           </div>
         </Social >
