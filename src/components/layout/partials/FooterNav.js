@@ -21,7 +21,10 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
-      
+
+        <li>
+          <a href="https://mirror.xyz/0xdAA3a454dB4aa15FA4769B5758581A69203A810b" target="_blank">Blog</a>
+        </li>
         <li>
           <a href="https://github.com/Tokenweb" target="_blank">Github</a>
         </li>
