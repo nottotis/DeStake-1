@@ -57,9 +57,7 @@ class Roadmap extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
-              <TimelineItem title="Phase 0 - DeStake Wallet Launch">
-              The DeStake Universal Staking Wallet will be released for GRT Staking.
-              </TimelineItem>
+
               <TimelineItem title="Phase 1 - DeStake Dapp Launch">
                 Liquid Staking launches for The Graph Indexer Delegations.
               </TimelineItem>
@@ -67,10 +65,8 @@ class Roadmap extends React.Component {
                 The DeStake DAO goes live and STAKE incentives begin.
               </TimelineItem>
               <TimelineItem title="Phase 3 - Network Expansion">
-                DeStake will integrate with Cosmos and continue expanding to additional networks.
+                DeStake will integrate with ETH2 and continue expanding to additional networks.
               </TimelineItem>
-
-
 
             </Timeline>
           </div>

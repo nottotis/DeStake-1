@@ -62,8 +62,8 @@ class Home extends React.Component {
           <div className="container">
             <SectionHeader data={genericSection01Header} className="center-content" />
             <ButtonGroup>
-            <Button tag="a" color="primary" wideMobile href="https://app.destake.io">
-              Get Started
+            <Button tag="a" color="primary" wideMobile href="https://twitter.com/DeStakeHQ">
+              Twitter
             </Button>
               <a href="https://t.me/DeStakeHQ" target="_blank"><Button color="secondary" wideMobile>Telegram</Button></a>
             </ButtonGroup>

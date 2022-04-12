@@ -21,12 +21,7 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
-        <li>
-          <Link to="">Terms & Conditions</Link>
-        </li>
-        <li>
-          <a href={whitepaper} target="_blank">Whitepaper</a>
-        </li>
+      
         <li>
           <a href="https://github.com/Tokenweb" target="_blank">Github</a>
         </li>
