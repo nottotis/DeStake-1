@@ -20,6 +20,7 @@ import HowItWorks from '../components/sections/HowItWorks';
 import Button from '../components/elements/Button';
 import ButtonGroup from '../components/elements/ButtonGroup';
 
+
 class Home extends React.Component {
 
   state = {

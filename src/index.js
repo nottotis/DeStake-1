@@ -12,9 +12,9 @@ import './assets/scss/style.scss';
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={history}>
-    <App />
-  </Router>,
+    <Router history={history}>
+        <App />
+    </Router>,
   document.getElementById('root')
 );
 

@@ -7,8 +7,12 @@
     "animate.css-react": "^1.1.0",
     "baffle-react": "0.0.2",
     "classnames": "^2.2.6",
+    "ethers": "^5.6.5",
+    "graphql": "^16.4.0",
+    "graphql-request": "^4.2.0",
+    "keccak256": "^1.0.6",
     "lodash": "^4.17.15",
-    "node-sass": "^4.12.0",
+    "merkletreejs": "^0.2.31",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-in-viewport": "^1.0.0-alpha.15",
@@ -38,5 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
 }

@@ -3,6 +3,7 @@ import { withRouter, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 
+
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 import LayoutAlternative from './layouts/LayoutAlternative';
@@ -13,6 +14,7 @@ import Home from './views/Home';
 import Secondary from './views/Secondary';
 import Login from './views/Login';
 import Signup from './views/Signup';
+import Rewards from './views/Rewards';
 
 class App extends React.Component {
 
@@ -38,6 +40,7 @@ class App extends React.Component {
             <AppRoute exact path="/secondary" component={Secondary} layout={LayoutAlternative} />
             <AppRoute exact path="/login" component={Login} layout={LayoutSignin} />
             <AppRoute exact path="/signup" component={Signup} layout={LayoutSignin} />
+            <AppRoute exact path="/rewards" component={Rewards}/>
           </Switch>
         )} />
     );
